@@ -1,0 +1,45 @@
+Arguments: 
+  /home/hamza/.nvm/versions/node/v12.22.10/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/hamza/.nvm/versions/node/v12.22.10/bin:/home/hamza/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hamza/Library/Android/sdk/emulator:/home/hamza/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.22.10
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/hamza/Desktop/node-docker/node_modules/abbrev'
+
+npm manifest: 
+  {
+    "name": "node-docker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.16"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,4 +1,6 @@
 About the Flow:
+docker exec -it containernameorid (bash/sh/zsh)
+
 1) We created different compose files for prod and dev environments but 
 another docker-compose.yml that have the same things between the environment.
 
@@ -19,3 +21,10 @@ the containers.
 8) as named volumes can be used other services we need to specify volumes separately
 
 9) docker volume prune = will remove unused volumes
+
+10) docker network ls 
+11) docker inspect containernameorid
+12) docker logs container-id -f (follow logs)
+13) use service name declared inside compose instead of ips because dns is built 
+in docker compose (it creates new network)
+14) docker network inspect networkname
