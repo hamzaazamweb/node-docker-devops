@@ -1,0 +1,9 @@
+//premissions elevated error
+sudo systemctl start apparmor 
+sudo apparmor_parser -r /var/lib/snapd/apparmor/profiles/*
+
+// error removing containers 
+
+sudo aa-remove-unknown
+
+

@@ -1,0 +1,13 @@
+About the Flow:
+We created different compose files for prod and dev environments but 
+another docker-compose.yml that have the same things between the environment.
+
+We can overwrite startup command in docker file in the docker compose file.
+
+Arg are the arguments that we can specify at the image build time.
+
+We could have created two different docker files for prod and dev environment 
+without writing the bash script inside.
+
+printenv command to run the environment variables inside the container.
+
