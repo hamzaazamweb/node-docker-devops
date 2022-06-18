@@ -1,13 +1,21 @@
 About the Flow:
-We created different compose files for prod and dev environments but 
+1) We created different compose files for prod and dev environments but 
 another docker-compose.yml that have the same things between the environment.
 
-We can overwrite startup command in docker file in the docker compose file.
+2) We can overwrite startup command in docker file in the docker compose file.
 
-Arg are the arguments that we can specify at the image build time.
+3) Arg are the arguments that we can specify at the image build time.
 
-We could have created two different docker files for prod and dev environment 
+4) We could have created two different docker files for prod and dev environment 
 without writing the bash script inside.
 
-printenv command to run the environment variables inside the container.
+5) printenv command to run the environment variables inside the container.
 
+6) docker-compose down -v to delete the volumes when putting down 
+the containers.
+
+7) named volumes for database persistance.
+
+8) as named volumes can be used other services we need to specify volumes separately
+
+9) docker volume prune = will remove unused volumes
