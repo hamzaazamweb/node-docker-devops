@@ -28,3 +28,9 @@ the containers.
 13) use service name declared inside compose instead of ips because dns is built 
 in docker compose (it creates new network)
 14) docker network inspect networkname
+15) depends on inside compose yml
+
+16)Start a single service:
+docker-compose up <service_name>
+Stop a single service:
+docker-compose stop <service_name>
