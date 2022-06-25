@@ -34,3 +34,12 @@ in docker compose (it creates new network)
 docker-compose up <service_name>
 Stop a single service:
 docker-compose stop <service_name>
+
+17)docker-compose -f  docker-compose.yml -f docker-compose.dev.yml down
+
+18)docker-compose -f  docker-compose.yml -f docker-compose.dev.yml up --build -d
+
+
+19) the configuration of nginx we write we need to take it into the nginx container
+to do we can use bind mounts to sync up file with our nginx container
+(read only bind mount)
